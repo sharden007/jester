@@ -1,7 +1,7 @@
 from surprise import Dataset, SVD
 from surprise.model_selection import cross_validate
 
-# Load the Jester dataset (download it if not already available)
+# Load the Jester dataset (download it if not already available).
 data = Dataset.load_builtin('jester')
 
 # Use the Singular Value Decomposition (SVD) algorithm for recommendations

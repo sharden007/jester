@@ -1,3 +1,9 @@
+RMay require a downgrade of numpy
+$ pip uninstall numpy
+
+$ pip install numpy<2
+
+
 The MovieLens 1M dataset originates from GroupLens Research, 
 a research group at the University of Minnesota. It was 
 collected through the MovieLens website (movielens.org)
